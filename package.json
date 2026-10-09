@@ -1,0 +1,14 @@
+{
+  "name": "textile-thread-machine",
+  "version": "1.0.0",
+  "description": "Automated Textile Thread/Needle Insertion and Hole Detection System",
+  "scripts": {
+    "start": "node run-all.js",
+    "dev": "node run-all.js",
+    "backend": "cd backend && .\\venv\\Scripts\\uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
